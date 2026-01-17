@@ -14,9 +14,9 @@ Beyond system modeling, the project emphasizes performnace evaluation and optimi
 
 The objective of this study is to identify configurations that lead to meaningful performance improvements, demonstrating how simulation-based optimization can support better operational decisions for toll gate systems on SLEX.
 
-_Toll gates play a critical role in managing traffic flow on expressways such as SLEX and NLEX. Despite infrastructure improvements, congestion at toll plazas remains common, particularly during peak hours. Traditional analytical queueing models provide insight but are often insufficient to capture the variability and operational complexity observed in real systems. Discrete-event simulation offers a flexible and powerful approach to study such systems under realistic assumptions.
+**Toll gates play a critical role in managing traffic flow on expressways such as SLEX and NLEX. Despite infrastructure improvements, congestion at toll plazas remains common, particularly during peak hours. Traditional analytical queueing models provide insight but are often insufficient to capture the variability and operational complexity observed in real systems. Discrete-event simulation offers a flexible and powerful approach to study such systems under realistic assumptions.
 
-The objective of this project is to model a Philippine toll gate using ARENA simulation software, analyze its performance under different operating conditions, and determine an optimal configuration using statistical ranking and selection methods._
+The objective of this project is to model a Philippine toll gate using ARENA simulation software, analyze its performance under different operating conditions, and determine an optimal configuration using statistical ranking and selection methods.**
 
 # 2. System Description and Assumptions
 
