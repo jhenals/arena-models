@@ -1,0 +1,862 @@
+
+                                      ARENA Simulation Results
+                             suboljhenalyn3@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/19/2026
+Analyst: suboljhenalyn3@gmail.com                                    Model revision date: 1/19/2026
+
+Replication ended at time      : 10000.0 Minutes 
+Statistics were cleared at time: 6400.0 Minutes (Friday, January 23, 2026, 10:40:00)
+Statistics accumulated for time: 3600.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process Pass RFID Toll.WaitTimePerEntity    .27792     (Insuf)    .00000     3.1662        101    
+Process Pass RFID Toll.VATimePerEntity      .93586     (Insuf)    .00235     4.5660        101    
+Process Pass RFID Toll.TotalTimePerEntity   1.2137     (Insuf)    .00235     4.5660        101    
+Process Pay Cash Toll.VATimePerEntity       2.3204     (Insuf)    .01726     7.7059         42    
+Process Pay Cash Toll.WaitTimePerEntity     .26535     (Insuf)    .00000     5.1090         42    
+Process Pay Cash Toll.TotalTimePerEntity    2.5858     (Insuf)    .01726     7.7059         42    
+Vehicle.VATime                              1.3425     (Insuf)    .00235     7.7059        143    
+Vehicle.NVATime                             .00000     (Insuf)    .00000     .00000        143    
+Vehicle.WaitTime                            .27423     (Insuf)    .00000     5.1090        143    
+Vehicle.TranTime                            .00000     (Insuf)    .00000     .00000        143    
+Vehicle.OtherTime                           .00000     (Insuf)    .00000     .00000        143    
+Vehicle.TotalTime                           1.6167     (Insuf)    .00235     7.7059        143    
+Process Pass RFID Toll.Queue.WaitingTime    .27792     (Insuf)    .00000     3.1662        101    
+Process Pay Cash Toll.Queue.WaitingTime     .26535     (Insuf)    .00000     5.1090         42    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Vehicle.WIP                                 .06422     (Insuf)    .00000     3.0000     .00000    
+RFID Lane.NumberBusy                        .02626     (Insuf)    .00000     1.0000     .00000    
+RFID Lane.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+RFID Lane.Utilization                       .02626     (Insuf)    .00000     1.0000     .00000    
+Cash Toll Collector.NumberBusy              .02707     (Insuf)    .00000     2.0000     .00000    
+Cash Toll Collector.NumberScheduled         1.3333     (Insuf)    1.0000     2.0000     1.0000    
+Cash Toll Collector.Utilization             .02338     (Insuf)    .00000     1.0000     .00000    
+Process Pass RFID Toll.Queue.NumberInQueue  .00780     (Insuf)    .00000     2.0000     .00000    
+Process Pay Cash Toll.Queue.NumberInQueue   .00310     (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Cash Payment Counter                             42  Infinite
+Bus and Light Truck Counter                      12  Infinite
+Motorcycle Counter                                6  Infinite
+Car Counter                                     108  Infinite
+Heavy Truck Counter                              17  Infinite
+RFID Payment Counter                            101  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process Pay Cash Toll Number In             42.000    
+Process Pay Cash Toll Number Out            42.000    
+Process Pass RFID Toll Accum VA Time        94.521    
+Process Pass RFID Toll Number Out           101.00    
+Process Pass RFID Toll Number In            101.00    
+Process Pass RFID Toll Accum Wait Time      28.069    
+Process Pay Cash Toll Accum Wait Time       11.144    
+Process Pay Cash Toll Accum VA Time         97.459    
+Vehicle.NumberIn                            143.00    
+Vehicle.NumberOut                           143.00    
+RFID Lane.NumberSeized                      101.00    
+RFID Lane.ScheduledUtilization              .02626    
+Cash Toll Collector.NumberSeized            42.000    
+Cash Toll Collector.ScheduledUtilization    .02030    
+System.NumberOut                            143.00    
+
+Beginning replication 2 of 10
+
+                                      ARENA Simulation Results
+                             suboljhenalyn3@gmail.com - License: STUDENT
+
+                                  Summary for Replication 2 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/19/2026
+Analyst: suboljhenalyn3@gmail.com                                    Model revision date: 1/19/2026
+
+Replication ended at time      : 10000.0 Minutes 
+Statistics were cleared at time: 6400.0 Minutes (Friday, January 23, 2026, 10:40:00)
+Statistics accumulated for time: 3600.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process Pass RFID Toll.WaitTimePerEntity    1.0812     .39954     .00000     12.898        715    
+Process Pass RFID Toll.VATimePerEntity      .94852     .09093      4.1946E-5 5.1240        715    
+Process Pass RFID Toll.TotalTimePerEntity   2.0297     .44841     .00312     14.586        715    
+Process Pay Cash Toll.VATimePerEntity       3.6065     (Insuf)    .04339     26.103        283    
+Process Pay Cash Toll.WaitTimePerEntity     7.1026     (Insuf)    .00000     64.697        283    
+Process Pay Cash Toll.TotalTimePerEntity    10.709     (Insuf)    .06467     67.057        283    
+Vehicle.VATime                              1.7022     .18184      4.1946E-5 26.103        998    
+Vehicle.NVATime                             .00000     .00000     .00000     .00000        998    
+Vehicle.WaitTime                            2.7887     (Corr)     .00000     64.697        998    
+Vehicle.TranTime                            .00000     .00000     .00000     .00000        998    
+Vehicle.OtherTime                           .00000     .00000     .00000     .00000        998    
+Vehicle.TotalTime                           4.4909     (Corr)     .00312     67.057        998    
+Process Pass RFID Toll.Queue.WaitingTime    1.0824     .39918     .00000     12.898        715    
+Process Pay Cash Toll.Queue.WaitingTime     7.0776     (Insuf)    .00000     64.697        284    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Vehicle.WIP                                 1.2461     .66319     .00000     19.000     3.0000    
+RFID Lane.NumberBusy                        .18868     .06617     .00000     1.0000     1.0000    
+RFID Lane.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+RFID Lane.Utilization                       .18868     .06617     .00000     1.0000     1.0000    
+Cash Toll Collector.NumberBusy              .28406     (Insuf)    .00000     2.0000     1.0000    
+Cash Toll Collector.NumberScheduled         1.3333     (Insuf)    1.0000     2.0000     1.0000    
+Cash Toll Collector.Utilization             .27109     (Insuf)    .00000     1.0000     1.0000    
+Process Pass RFID Toll.Queue.NumberInQueue  .21505     .12297     .00000     9.0000     1.0000    
+Process Pay Cash Toll.Queue.NumberInQueue   .55834     (Insuf)    .00000     12.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Cash Payment Counter                            284  Infinite
+Bus and Light Truck Counter                      95  Infinite
+Motorcycle Counter                               53  Infinite
+Car Counter                                     699  Infinite
+Heavy Truck Counter                             151  Infinite
+RFID Payment Counter                            716  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process Pay Cash Toll Number In             284.00    
+Process Pay Cash Toll Number Out            283.00    
+Process Pass RFID Toll Accum VA Time        678.19    
+Process Pass RFID Toll Number Out           715.00    
+Process Pass RFID Toll Number In            716.00    
+Process Pass RFID Toll Accum Wait Time      773.10    
+Process Pay Cash Toll Accum Wait Time       2010.0    
+Process Pay Cash Toll Accum VA Time         1020.6    
+Vehicle.NumberIn                            1000.0    
+Vehicle.NumberOut                           998.00    
+RFID Lane.NumberSeized                      715.00    
+RFID Lane.ScheduledUtilization              .18868    
+Cash Toll Collector.NumberSeized            284.00    
+Cash Toll Collector.ScheduledUtilization    .21305    
+System.NumberOut                            998.00    
+
+Beginning replication 3 of 10
+
+                                      ARENA Simulation Results
+                             suboljhenalyn3@gmail.com - License: STUDENT
+
+                                  Summary for Replication 3 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/19/2026
+Analyst: suboljhenalyn3@gmail.com                                    Model revision date: 1/19/2026
+
+Replication ended at time      : 10000.0 Minutes 
+Statistics were cleared at time: 6400.0 Minutes (Friday, January 23, 2026, 10:40:00)
+Statistics accumulated for time: 3600.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process Pass RFID Toll.WaitTimePerEntity    .27733     (Insuf)    .00000     4.2558        133    
+Process Pass RFID Toll.VATimePerEntity      1.0426     (Insuf)    .00817     3.8287        133    
+Process Pass RFID Toll.TotalTimePerEntity   1.3199     (Insuf)    .00817     4.8027        133    
+Process Pay Cash Toll.VATimePerEntity       4.1897     (Insuf)    .02052     28.345         81    
+Process Pay Cash Toll.WaitTimePerEntity     2.2006     (Insuf)    .00000     28.345         81    
+Process Pay Cash Toll.TotalTimePerEntity    6.3903     (Insuf)    .02052     35.693         81    
+Vehicle.VATime                              2.2338     (Insuf)    .00817     28.345        214    
+Vehicle.NVATime                             .00000     (Insuf)    .00000     .00000        214    
+Vehicle.WaitTime                            1.0053     (Insuf)    .00000     28.345        214    
+Vehicle.TranTime                            .00000     (Insuf)    .00000     .00000        214    
+Vehicle.OtherTime                           .00000     (Insuf)    .00000     .00000        214    
+Vehicle.TotalTime                           3.2391     (Insuf)    .00817     35.693        214    
+Process Pass RFID Toll.Queue.WaitingTime    .27558     (Insuf)    .00000     4.2558        134    
+Process Pay Cash Toll.Queue.WaitingTime     2.0824     (Insuf)    .00000     28.345         81    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Vehicle.WIP                                 .19006     (Corr)     .00000     6.0000     2.0000    
+RFID Lane.NumberBusy                        .03858     (Insuf)    .00000     1.0000     1.0000    
+RFID Lane.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+RFID Lane.Utilization                       .03858     (Insuf)    .00000     1.0000     1.0000    
+Cash Toll Collector.NumberBusy              .09437     (Insuf)    .00000     2.0000     1.0000    
+Cash Toll Collector.NumberScheduled         1.3333     (Insuf)    1.0000     2.0000     1.0000    
+Cash Toll Collector.Utilization             .08658     (Insuf)    .00000     1.0000     1.0000    
+Process Pass RFID Toll.Queue.NumberInQueue  .01026     (Insuf)    .00000     3.0000     .00000    
+Process Pay Cash Toll.Queue.NumberInQueue   .04685     (Insuf)    .00000     4.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Cash Payment Counter                             81  Infinite
+Bus and Light Truck Counter                      14  Infinite
+Motorcycle Counter                                9  Infinite
+Car Counter                                     163  Infinite
+Heavy Truck Counter                              28  Infinite
+RFID Payment Counter                            134  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process Pay Cash Toll Number In             81.000    
+Process Pay Cash Toll Number Out            81.000    
+Process Pass RFID Toll Accum VA Time        138.67    
+Process Pass RFID Toll Number Out           133.00    
+Process Pass RFID Toll Number In            134.00    
+Process Pass RFID Toll Accum Wait Time      36.885    
+Process Pay Cash Toll Accum Wait Time       178.24    
+Process Pay Cash Toll Accum VA Time         339.36    
+Vehicle.NumberIn                            215.00    
+Vehicle.NumberOut                           214.00    
+RFID Lane.NumberSeized                      134.00    
+RFID Lane.ScheduledUtilization              .03858    
+Cash Toll Collector.NumberSeized            81.000    
+Cash Toll Collector.ScheduledUtilization    .07078    
+System.NumberOut                            214.00    
+
+Beginning replication 4 of 10
+
+                                      ARENA Simulation Results
+                             suboljhenalyn3@gmail.com - License: STUDENT
+
+                                  Summary for Replication 4 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/19/2026
+Analyst: suboljhenalyn3@gmail.com                                    Model revision date: 1/19/2026
+
+Replication ended at time      : 10000.0 Minutes 
+Statistics were cleared at time: 6400.0 Minutes (Friday, January 23, 2026, 10:40:00)
+Statistics accumulated for time: 3600.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process Pass RFID Toll.WaitTimePerEntity    1.1214     .27647     .00000     10.744        820    
+Process Pass RFID Toll.VATimePerEntity      1.0192     .06573      3.7899E-4 8.7137        820    
+Process Pass RFID Toll.TotalTimePerEntity   2.1406     .32295     .00150     12.272        820    
+Process Pay Cash Toll.VATimePerEntity       3.5623     .38102     .00309     28.205        370    
+Process Pay Cash Toll.WaitTimePerEntity     10.809     (Corr)     .00000     53.213        370    
+Process Pay Cash Toll.TotalTimePerEntity    14.371     (Corr)     .05368     56.269        370    
+Vehicle.VATime                              1.8099     .13033      3.7899E-4 28.205       1190    
+Vehicle.NVATime                             .00000     .00000     .00000     .00000       1190    
+Vehicle.WaitTime                            4.1337     (Corr)     .00000     53.213       1190    
+Vehicle.TranTime                            .00000     .00000     .00000     .00000       1190    
+Vehicle.OtherTime                           .00000     .00000     .00000     .00000       1190    
+Vehicle.TotalTime                           5.9436     (Corr)     .00150     56.269       1190    
+Process Pass RFID Toll.Queue.WaitingTime    1.1214     .27647     .00000     10.744        820    
+Process Pay Cash Toll.Queue.WaitingTime     10.809     (Corr)     .00000     53.213        370    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Vehicle.WIP                                 1.9647     (Corr)     .00000     20.000     .00000    
+RFID Lane.NumberBusy                        .23215     (Corr)     .00000     1.0000     .00000    
+RFID Lane.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+RFID Lane.Utilization                       .23215     (Corr)     .00000     1.0000     .00000    
+Cash Toll Collector.NumberBusy              .36613     (Insuf)    .00000     2.0000     .00000    
+Cash Toll Collector.NumberScheduled         1.3333     (Insuf)    1.0000     2.0000     1.0000    
+Cash Toll Collector.Utilization             .31779     (Insuf)    .00000     1.0000     .00000    
+Process Pass RFID Toll.Queue.NumberInQueue  .25545     (Corr)     .00000     8.0000     .00000    
+Process Pay Cash Toll.Queue.NumberInQueue   1.1109     (Corr)     .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Cash Payment Counter                            370  Infinite
+Bus and Light Truck Counter                     135  Infinite
+Motorcycle Counter                               77  Infinite
+Car Counter                                     787  Infinite
+Heavy Truck Counter                             191  Infinite
+RFID Payment Counter                            820  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process Pay Cash Toll Number In             370.00    
+Process Pay Cash Toll Number Out            370.00    
+Process Pass RFID Toll Accum VA Time        835.75    
+Process Pass RFID Toll Number Out           820.00    
+Process Pass RFID Toll Number In            820.00    
+Process Pass RFID Toll Accum Wait Time      919.61    
+Process Pay Cash Toll Accum Wait Time       3999.5    
+Process Pay Cash Toll Accum VA Time         1318.0    
+Vehicle.NumberIn                            1190.0    
+Vehicle.NumberOut                           1190.0    
+RFID Lane.NumberSeized                      820.00    
+RFID Lane.ScheduledUtilization              .23215    
+Cash Toll Collector.NumberSeized            370.00    
+Cash Toll Collector.ScheduledUtilization    .27460    
+System.NumberOut                            1190.0    
+
+Beginning replication 5 of 10
+
+                                      ARENA Simulation Results
+                             suboljhenalyn3@gmail.com - License: STUDENT
+
+                                  Summary for Replication 5 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/19/2026
+Analyst: suboljhenalyn3@gmail.com                                    Model revision date: 1/19/2026
+
+Replication ended at time      : 10000.0 Minutes 
+Statistics were cleared at time: 6400.0 Minutes (Friday, January 23, 2026, 10:40:00)
+Statistics accumulated for time: 3600.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process Pass RFID Toll.WaitTimePerEntity    .48384     (Corr)     .00000     6.2400        501    
+Process Pass RFID Toll.VATimePerEntity      .97757     .08621      5.8095E-4 5.9539        501    
+Process Pass RFID Toll.TotalTimePerEntity   1.4614     .20571      5.8095E-4 9.0746        501    
+Process Pay Cash Toll.VATimePerEntity       3.3287     (Insuf)    .03104     30.955        231    
+Process Pay Cash Toll.WaitTimePerEntity     1.6665     (Insuf)    .00000     30.955        231    
+Process Pay Cash Toll.TotalTimePerEntity    4.9952     (Insuf)    .03104     34.216        231    
+Vehicle.VATime                              1.7195     .18871      5.8095E-4 30.955        732    
+Vehicle.NVATime                             .00000     .00000     .00000     .00000        732    
+Vehicle.WaitTime                            .85708     .31094     .00000     30.955        732    
+Vehicle.TranTime                            .00000     .00000     .00000     .00000        732    
+Vehicle.OtherTime                           .00000     .00000     .00000     .00000        732    
+Vehicle.TotalTime                           2.5766     .44040      5.8095E-4 34.216        732    
+Process Pass RFID Toll.Queue.WaitingTime    .48384     (Corr)     .00000     6.2400        501    
+Process Pay Cash Toll.Queue.WaitingTime     1.6665     (Insuf)    .00000     30.955        231    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Vehicle.WIP                                 .52391     .15650     .00000     8.0000     .00000    
+RFID Lane.NumberBusy                        .13605     (Corr)     .00000     1.0000     .00000    
+RFID Lane.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+RFID Lane.Utilization                       .13605     (Corr)     .00000     1.0000     .00000    
+Cash Toll Collector.NumberBusy              .21359     .05532     .00000     2.0000     .00000    
+Cash Toll Collector.NumberScheduled         1.3333     (Insuf)    1.0000     2.0000     1.0000    
+Cash Toll Collector.Utilization             .18654     .05646     .00000     1.0000     .00000    
+Process Pass RFID Toll.Queue.NumberInQueue  .06733     (Corr)     .00000     5.0000     .00000    
+Process Pay Cash Toll.Queue.NumberInQueue   .10694     (Insuf)    .00000     5.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Cash Payment Counter                            231  Infinite
+Bus and Light Truck Counter                      64  Infinite
+Motorcycle Counter                               42  Infinite
+Car Counter                                     517  Infinite
+Heavy Truck Counter                             109  Infinite
+RFID Payment Counter                            501  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process Pay Cash Toll Number In             231.00    
+Process Pay Cash Toll Number Out            231.00    
+Process Pass RFID Toll Accum VA Time        489.76    
+Process Pass RFID Toll Number Out           501.00    
+Process Pass RFID Toll Number In            501.00    
+Process Pass RFID Toll Accum Wait Time      242.40    
+Process Pay Cash Toll Accum Wait Time       384.97    
+Process Pay Cash Toll Accum VA Time         768.93    
+Vehicle.NumberIn                            732.00    
+Vehicle.NumberOut                           732.00    
+RFID Lane.NumberSeized                      501.00    
+RFID Lane.ScheduledUtilization              .13605    
+Cash Toll Collector.NumberSeized            231.00    
+Cash Toll Collector.ScheduledUtilization    .16019    
+System.NumberOut                            732.00    
+
+Beginning replication 6 of 10
+
+                                      ARENA Simulation Results
+                             suboljhenalyn3@gmail.com - License: STUDENT
+
+                                  Summary for Replication 6 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/19/2026
+Analyst: suboljhenalyn3@gmail.com                                    Model revision date: 1/19/2026
+
+Replication ended at time      : 10000.0 Minutes 
+Statistics were cleared at time: 6400.0 Minutes (Friday, January 23, 2026, 10:40:00)
+Statistics accumulated for time: 3600.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process Pass RFID Toll.WaitTimePerEntity    .61632     .15178     .00000     6.8068        501    
+Process Pass RFID Toll.VATimePerEntity      .98292     .08277     .00192     6.6275        501    
+Process Pass RFID Toll.TotalTimePerEntity   1.5992     .20062     .00269     9.2742        501    
+Process Pay Cash Toll.VATimePerEntity       3.4442     (Insuf)    .00449     31.434        212    
+Process Pay Cash Toll.WaitTimePerEntity     1.6873     (Insuf)    .00000     31.574        212    
+Process Pay Cash Toll.TotalTimePerEntity    5.1316     (Insuf)    .02528     39.357        212    
+Vehicle.VATime                              1.7147     .17538     .00192     31.434        713    
+Vehicle.NVATime                             .00000     .00000     .00000     .00000        713    
+Vehicle.WaitTime                            .93479     .48486     .00000     31.574        713    
+Vehicle.TranTime                            .00000     .00000     .00000     .00000        713    
+Vehicle.OtherTime                           .00000     .00000     .00000     .00000        713    
+Vehicle.TotalTime                           2.6495     .56466     .00269     39.357        713    
+Process Pass RFID Toll.Queue.WaitingTime    .62415     .15178     .00000     6.8068        502    
+Process Pay Cash Toll.Queue.WaitingTime     1.6845     (Insuf)    .00000     31.574        213    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Vehicle.WIP                                 .53174     .16708     .00000     9.0000     5.0000    
+RFID Lane.NumberBusy                        .13787     .03191     .00000     1.0000     1.0000    
+RFID Lane.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+RFID Lane.Utilization                       .13787     .03191     .00000     1.0000     1.0000    
+Cash Toll Collector.NumberBusy              .20302     (Insuf)    .00000     2.0000     1.0000    
+Cash Toll Collector.NumberScheduled         1.3333     (Insuf)    1.0000     2.0000     1.0000    
+Cash Toll Collector.Utilization             .18942     (Insuf)    .00000     1.0000     1.0000    
+Process Pass RFID Toll.Queue.NumberInQueue  .09118     (Corr)     .00000     5.0000     3.0000    
+Process Pay Cash Toll.Queue.NumberInQueue   .09967     (Insuf)    .00000     6.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Cash Payment Counter                            213  Infinite
+Bus and Light Truck Counter                      59  Infinite
+Motorcycle Counter                               37  Infinite
+Car Counter                                     512  Infinite
+Heavy Truck Counter                             105  Infinite
+RFID Payment Counter                            505  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process Pay Cash Toll Number In             213.00    
+Process Pay Cash Toll Number Out            212.00    
+Process Pass RFID Toll Accum VA Time        492.44    
+Process Pass RFID Toll Number Out           501.00    
+Process Pass RFID Toll Number In            505.00    
+Process Pass RFID Toll Accum Wait Time      308.77    
+Process Pay Cash Toll Accum Wait Time       357.72    
+Process Pay Cash Toll Accum VA Time         730.18    
+Vehicle.NumberIn                            718.00    
+Vehicle.NumberOut                           713.00    
+RFID Lane.NumberSeized                      502.00    
+RFID Lane.ScheduledUtilization              .13787    
+Cash Toll Collector.NumberSeized            213.00    
+Cash Toll Collector.ScheduledUtilization    .15226    
+System.NumberOut                            713.00    
+
+Beginning replication 7 of 10
+
+                                      ARENA Simulation Results
+                             suboljhenalyn3@gmail.com - License: STUDENT
+
+                                  Summary for Replication 7 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/19/2026
+Analyst: suboljhenalyn3@gmail.com                                    Model revision date: 1/19/2026
+
+Replication ended at time      : 10000.0 Minutes 
+Statistics were cleared at time: 6400.0 Minutes (Friday, January 23, 2026, 10:40:00)
+Statistics accumulated for time: 3600.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process Pass RFID Toll.WaitTimePerEntity    .72314     .25524     .00000     8.3049        657    
+Process Pass RFID Toll.VATimePerEntity      .92933     .06686     .00108     5.7852        657    
+Process Pass RFID Toll.TotalTimePerEntity   1.6524     .28876     .00301     9.8515        657    
+Process Pay Cash Toll.VATimePerEntity       3.4031     (Insuf)    .00157     30.315        279    
+Process Pay Cash Toll.WaitTimePerEntity     2.6607     (Insuf)    .00000     29.351        279    
+Process Pay Cash Toll.TotalTimePerEntity    6.0638     (Insuf)    .00998     30.712        279    
+Vehicle.VATime                              1.6667     .14552     .00108     30.315        936    
+Vehicle.NVATime                             .00000     .00000     .00000     .00000        936    
+Vehicle.WaitTime                            1.3006     .71254     .00000     29.351        936    
+Vehicle.TranTime                            .00000     .00000     .00000     .00000        936    
+Vehicle.OtherTime                           .00000     .00000     .00000     .00000        936    
+Vehicle.TotalTime                           2.9673     .76764     .00301     30.712        936    
+Process Pass RFID Toll.Queue.WaitingTime    .72057     .25774     .00000     8.3049        656    
+Process Pay Cash Toll.Queue.WaitingTime     2.6607     (Insuf)    .00000     29.351        279    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Vehicle.WIP                                 .76988     .28961     .00000     18.000     1.0000    
+RFID Lane.NumberBusy                        .16924     .04242     .00000     1.0000     .00000    
+RFID Lane.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+RFID Lane.Utilization                       .16924     .04242     .00000     1.0000     .00000    
+Cash Toll Collector.NumberBusy              .26314     .06196     .00000     2.0000     1.0000    
+Cash Toll Collector.NumberScheduled         1.3333     (Insuf)    1.0000     2.0000     1.0000    
+Cash Toll Collector.Utilization             .23204     .06290     .00000     1.0000     1.0000    
+Process Pass RFID Toll.Queue.NumberInQueue  .13130     .07315     .00000     8.0000     .00000    
+Process Pay Cash Toll.Queue.NumberInQueue   .20620     (Insuf)    .00000     9.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Cash Payment Counter                            279  Infinite
+Bus and Light Truck Counter                      84  Infinite
+Motorcycle Counter                               39  Infinite
+Car Counter                                     653  Infinite
+Heavy Truck Counter                             160  Infinite
+RFID Payment Counter                            656  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process Pay Cash Toll Number In             279.00    
+Process Pay Cash Toll Number Out            279.00    
+Process Pass RFID Toll Accum VA Time        610.56    
+Process Pass RFID Toll Number Out           657.00    
+Process Pass RFID Toll Number In            656.00    
+Process Pass RFID Toll Accum Wait Time      475.10    
+Process Pay Cash Toll Accum Wait Time       742.33    
+Process Pay Cash Toll Accum VA Time         949.46    
+Vehicle.NumberIn                            935.00    
+Vehicle.NumberOut                           936.00    
+RFID Lane.NumberSeized                      656.00    
+RFID Lane.ScheduledUtilization              .16924    
+Cash Toll Collector.NumberSeized            279.00    
+Cash Toll Collector.ScheduledUtilization    .19735    
+System.NumberOut                            936.00    
+
+Beginning replication 8 of 10
+
+                                      ARENA Simulation Results
+                             suboljhenalyn3@gmail.com - License: STUDENT
+
+                                  Summary for Replication 8 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/19/2026
+Analyst: suboljhenalyn3@gmail.com                                    Model revision date: 1/19/2026
+
+Replication ended at time      : 10000.0 Minutes 
+Statistics were cleared at time: 6400.0 Minutes (Friday, January 23, 2026, 10:40:00)
+Statistics accumulated for time: 3600.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process Pass RFID Toll.WaitTimePerEntity    .65354     (Insuf)    .00000     6.6651        282    
+Process Pass RFID Toll.VATimePerEntity      1.0139     (Insuf)    .00288     6.7086        282    
+Process Pass RFID Toll.TotalTimePerEntity   1.6675     (Insuf)    .00288     8.3072        282    
+Process Pay Cash Toll.VATimePerEntity       3.5730     (Insuf)    .00154     29.586        122    
+Process Pay Cash Toll.WaitTimePerEntity     1.2383     (Insuf)    .00000     21.501        122    
+Process Pay Cash Toll.TotalTimePerEntity    4.8114     (Insuf)    .00154     29.586        122    
+Vehicle.VATime                              1.7867     .26731     .00154     29.586        404    
+Vehicle.NVATime                             .00000     .00000     .00000     .00000        404    
+Vehicle.WaitTime                            .83015     .25606     .00000     21.501        404    
+Vehicle.TranTime                            .00000     .00000     .00000     .00000        404    
+Vehicle.OtherTime                           .00000     .00000     .00000     .00000        404    
+Vehicle.TotalTime                           2.6169     .43393     .00154     29.586        404    
+Process Pass RFID Toll.Queue.WaitingTime    .66188     (Insuf)    .00000     6.6651        283    
+Process Pay Cash Toll.Queue.WaitingTime     1.2383     (Insuf)    .00000     21.501        122    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Vehicle.WIP                                 .29466     .09978     .00000     8.0000     1.0000    
+RFID Lane.NumberBusy                        .07958     .02961     .00000     1.0000     1.0000    
+RFID Lane.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+RFID Lane.Utilization                       .07958     .02961     .00000     1.0000     1.0000    
+Cash Toll Collector.NumberBusy              .12109     (Insuf)    .00000     2.0000     .00000    
+Cash Toll Collector.NumberScheduled         1.3333     (Insuf)    1.0000     2.0000     1.0000    
+Cash Toll Collector.Utilization             .11718     (Insuf)    .00000     1.0000     .00000    
+Process Pass RFID Toll.Queue.NumberInQueue  .05203     (Insuf)    .00000     6.0000     .00000    
+Process Pay Cash Toll.Queue.NumberInQueue   .04197     (Insuf)    .00000     2.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Cash Payment Counter                            122  Infinite
+Bus and Light Truck Counter                      35  Infinite
+Motorcycle Counter                               17  Infinite
+Car Counter                                     285  Infinite
+Heavy Truck Counter                              67  Infinite
+RFID Payment Counter                            283  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process Pay Cash Toll Number In             122.00    
+Process Pay Cash Toll Number Out            122.00    
+Process Pass RFID Toll Accum VA Time        285.93    
+Process Pass RFID Toll Number Out           282.00    
+Process Pass RFID Toll Number In            283.00    
+Process Pass RFID Toll Accum Wait Time      184.29    
+Process Pay Cash Toll Accum Wait Time       151.08    
+Process Pay Cash Toll Accum VA Time         435.91    
+Vehicle.NumberIn                            405.00    
+Vehicle.NumberOut                           404.00    
+RFID Lane.NumberSeized                      283.00    
+RFID Lane.ScheduledUtilization              .07958    
+Cash Toll Collector.NumberSeized            122.00    
+Cash Toll Collector.ScheduledUtilization    .09081    
+System.NumberOut                            404.00    
+
+Beginning replication 9 of 10
+
+                                      ARENA Simulation Results
+                             suboljhenalyn3@gmail.com - License: STUDENT
+
+                                  Summary for Replication 9 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/19/2026
+Analyst: suboljhenalyn3@gmail.com                                    Model revision date: 1/19/2026
+
+Replication ended at time      : 10000.0 Minutes 
+Statistics were cleared at time: 6400.0 Minutes (Friday, January 23, 2026, 10:40:00)
+Statistics accumulated for time: 3600.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process Pass RFID Toll.WaitTimePerEntity    .49651     .15027     .00000     5.1754        366    
+Process Pass RFID Toll.VATimePerEntity      .93436     .06498      1.1300E-4 6.9508        366    
+Process Pass RFID Toll.TotalTimePerEntity   1.4308     .17213     .00102     6.9508        366    
+Process Pay Cash Toll.VATimePerEntity       3.5752     (Insuf)    .00186     36.306        165    
+Process Pay Cash Toll.WaitTimePerEntity     2.3365     (Insuf)    .00000     42.754        165    
+Process Pay Cash Toll.TotalTimePerEntity    5.9117     (Insuf)    .00186     44.517        165    
+Vehicle.VATime                              1.7549     .25015      1.1300E-4 36.306        531    
+Vehicle.NVATime                             .00000     .00000     .00000     .00000        531    
+Vehicle.WaitTime                            1.0682     (Corr)     .00000     42.754        531    
+Vehicle.TranTime                            .00000     .00000     .00000     .00000        531    
+Vehicle.OtherTime                           .00000     .00000     .00000     .00000        531    
+Vehicle.TotalTime                           2.8232     (Corr)     .00102     44.517        531    
+Process Pass RFID Toll.Queue.WaitingTime    .49651     .15027     .00000     5.1754        366    
+Process Pay Cash Toll.Queue.WaitingTime     2.3365     (Insuf)    .00000     42.754        165    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Vehicle.WIP                                 .41643     (Corr)     .00000     9.0000     .00000    
+RFID Lane.NumberBusy                        .09499     (Corr)     .00000     1.0000     .00000    
+RFID Lane.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+RFID Lane.Utilization                       .09499     (Corr)     .00000     1.0000     .00000    
+Cash Toll Collector.NumberBusy              .16386     (Insuf)    .00000     2.0000     .00000    
+Cash Toll Collector.NumberScheduled         1.3333     (Insuf)    1.0000     2.0000     1.0000    
+Cash Toll Collector.Utilization             .13768     (Insuf)    .00000     1.0000     .00000    
+Process Pass RFID Toll.Queue.NumberInQueue  .05048     (Insuf)    .00000     5.0000     .00000    
+Process Pay Cash Toll.Queue.NumberInQueue   .10709     (Insuf)    .00000     6.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Cash Payment Counter                            165  Infinite
+Bus and Light Truck Counter                      40  Infinite
+Motorcycle Counter                               37  Infinite
+Car Counter                                     373  Infinite
+Heavy Truck Counter                              81  Infinite
+RFID Payment Counter                            366  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process Pay Cash Toll Number In             165.00    
+Process Pay Cash Toll Number Out            165.00    
+Process Pass RFID Toll Accum VA Time        341.97    
+Process Pass RFID Toll Number Out           366.00    
+Process Pass RFID Toll Number In            366.00    
+Process Pass RFID Toll Accum Wait Time      181.72    
+Process Pay Cash Toll Accum Wait Time       385.52    
+Process Pay Cash Toll Accum VA Time         589.91    
+Vehicle.NumberIn                            531.00    
+Vehicle.NumberOut                           531.00    
+RFID Lane.NumberSeized                      366.00    
+RFID Lane.ScheduledUtilization              .09499    
+Cash Toll Collector.NumberSeized            165.00    
+Cash Toll Collector.ScheduledUtilization    .12290    
+System.NumberOut                            531.00    
+
+Beginning replication 10 of 10
+
+                                      ARENA Simulation Results
+                             suboljhenalyn3@gmail.com - License: STUDENT
+
+                                  Summary for Replication 10 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/19/2026
+Analyst: suboljhenalyn3@gmail.com                                    Model revision date: 1/19/2026
+
+Replication ended at time      : 10000.0 Minutes 
+Statistics were cleared at time: 6400.0 Minutes (Friday, January 23, 2026, 10:40:00)
+Statistics accumulated for time: 3600.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process Pass RFID Toll.WaitTimePerEntity    .45115     (Insuf)    .00000     9.3720        258    
+Process Pass RFID Toll.VATimePerEntity      .95250     (Insuf)    .01594     5.6509        258    
+Process Pass RFID Toll.TotalTimePerEntity   1.4036     (Insuf)    .01594     10.717        258    
+Process Pay Cash Toll.VATimePerEntity       2.9581     (Insuf)    .00260     15.610        108    
+Process Pay Cash Toll.WaitTimePerEntity     .54718     (Insuf)    .00000     8.8554        108    
+Process Pay Cash Toll.TotalTimePerEntity    3.5053     (Insuf)    .00260     18.920        108    
+Vehicle.VATime                              1.5443     .25177     .00260     15.610        366    
+Vehicle.NVATime                             .00000     .00000     .00000     .00000        366    
+Vehicle.WaitTime                            .47949     .26101     .00000     9.3720        366    
+Vehicle.TranTime                            .00000     .00000     .00000     .00000        366    
+Vehicle.OtherTime                           .00000     .00000     .00000     .00000        366    
+Vehicle.TotalTime                           2.0238     .39818     .00260     18.920        366    
+Process Pass RFID Toll.Queue.WaitingTime    .45115     (Insuf)    .00000     9.3720        258    
+Process Pay Cash Toll.Queue.WaitingTime     .54718     (Insuf)    .00000     8.8554        108    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Vehicle.WIP                                 .20575     .05048     .00000     6.0000     .00000    
+RFID Lane.NumberBusy                        .06826     .01327     .00000     1.0000     .00000    
+RFID Lane.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+RFID Lane.Utilization                       .06826     .01327     .00000     1.0000     .00000    
+Cash Toll Collector.NumberBusy              .08874     (Insuf)    .00000     2.0000     .00000    
+Cash Toll Collector.NumberScheduled         1.3333     (Insuf)    1.0000     2.0000     1.0000    
+Cash Toll Collector.Utilization             .08089     (Insuf)    .00000     1.0000     .00000    
+Process Pass RFID Toll.Queue.NumberInQueue  .03233     (Insuf)    .00000     5.0000     .00000    
+Process Pay Cash Toll.Queue.NumberInQueue   .01642     (Insuf)    .00000     2.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Cash Payment Counter                            108  Infinite
+Bus and Light Truck Counter                      35  Infinite
+Motorcycle Counter                               15  Infinite
+Car Counter                                     262  Infinite
+Heavy Truck Counter                              54  Infinite
+RFID Payment Counter                            258  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process Pay Cash Toll Number In             108.00    
+Process Pay Cash Toll Number Out            108.00    
+Process Pass RFID Toll Accum VA Time        245.74    
+Process Pass RFID Toll Number Out           258.00    
+Process Pass RFID Toll Number In            258.00    
+Process Pass RFID Toll Accum Wait Time      116.39    
+Process Pay Cash Toll Accum Wait Time       59.095    
+Process Pay Cash Toll Accum VA Time         319.47    
+Vehicle.NumberIn                            366.00    
+Vehicle.NumberOut                           366.00    
+RFID Lane.NumberSeized                      258.00    
+RFID Lane.ScheduledUtilization              .06826    
+Cash Toll Collector.NumberSeized            108.00    
+Cash Toll Collector.ScheduledUtilization    .06656    
+System.NumberOut                            366.00    
+
+
+                                      ARENA Simulation Results
+                             suboljhenalyn3@gmail.com - License: STUDENT
+
+                                 Output Summary for 10 Replications
+
+Project: Unnamed Project                                             Run execution date : 1/19/2026
+Analyst: suboljhenalyn3@gmail.com                                    Model revision date: 1/19/2026
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Process Pay Cash Toll Number In             189.50     74.307     42.000     370.00     10
+Process Pay Cash Toll Number Out            189.30     74.217     42.000     370.00     10
+Process Pass RFID Toll Accum VA Time        421.35     172.83     94.521     835.75     10
+Process Pass RFID Toll Number Out           433.40     176.32     101.00     820.00     10
+Process Pass RFID Toll Number In            434.00     176.28     101.00     820.00     10
+Process Pass RFID Toll Accum Wait Time      326.63     218.39     28.069     919.61     10
+Process Pay Cash Toll Accum Wait Time       827.96     898.97     11.144     3999.5     10
+Process Pay Cash Toll Accum VA Time         656.94     267.00     97.459     1318.0     10
+Vehicle.NumberIn                            623.50     250.16     143.00     1190.0     10
+Vehicle.NumberOut                           622.70     250.09     143.00     1190.0     10
+RFID Lane.NumberSeized                      433.60     176.12     101.00     820.00     10
+RFID Lane.ScheduledUtilization              .11717     .04803     .02626     .23215     10
+Cash Toll Collector.NumberSeized            189.50     74.307     42.000     370.00     10
+Cash Toll Collector.ScheduledUtilization    .13688     .05563     .02030     .27460     10
+System.NumberOut                            622.70     250.09     143.00     1190.0     10
+
+Simulation run time: 39.87 minutes.
+Simulation run complete.
