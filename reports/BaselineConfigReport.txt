@@ -1,0 +1,67 @@
+
+                                      ARENA Simulation Results
+                             suboljhenalyn3@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 1/20/2026
+Analyst: suboljhenalyn3@gmail.com                                    Model revision date: 1/20/2026
+
+Replication ended at time      : 14400.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process Pay Toll.TotalTimePerEntity         9.2426     1.7853     .00129     58.970       2337    
+Process Pay Toll.VATimePerEntity            3.5780     .13175     .00129     36.266       2337    
+Process Pay Toll.WaitTimePerEntity          5.6646     1.6898     .00000     55.789       2337    
+Vehicle.VATime                              3.5780     .13175     .00129     36.266       2337    
+Vehicle.NVATime                             .00000     .00000     .00000     .00000       2337    
+Vehicle.WaitTime                            5.6646     1.6898     .00000     55.789       2337    
+Vehicle.TranTime                            .00000     .00000     .00000     .00000       2337    
+Vehicle.OtherTime                           .00000     .00000     .00000     .00000       2337    
+Vehicle.TotalTime                           9.2426     1.7853     .00129     58.970       2337    
+Process Pay Toll.Queue.WaitingTime          5.6626     1.6898     .00000     55.789       2338    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Vehicle.WIP                                 1.5001     .30733     .00000     13.000     1.0000    
+Toll Collector.NumberBusy                   .58074     .03608     .00000     1.0000     1.0000    
+Toll Collector.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Toll Collector.Utilization                  .58074     .03608     .00000     1.0000     1.0000    
+Process Pay Toll.Queue.NumberInQueue        .91940     .27766     .00000     12.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Bus and Light Truck Counter                     229  Infinite
+Motorcycle Counter                              118  Infinite
+Car Counter                                    1651  Infinite
+Heavy Truck Counter                             339  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process Pay Toll Accum Wait Time            13238.    
+Process Pay Toll Number Out                 2337.0    
+Process Pay Toll Number In                  2338.0    
+Process Pay Toll Accum VA Time              8361.8    
+Vehicle.NumberIn                            2338.0    
+Vehicle.NumberOut                           2337.0    
+Toll Collector.NumberSeized                 2338.0    
+Toll Collector.ScheduledUtilization         .58074    
+System.NumberOut                            2337.0    
+
+
+Simulation run time: 4.38 minutes.
+Simulation run complete.
